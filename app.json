@@ -1,0 +1,8 @@
+{
+  "name": "Start on Heroku: Clojure",
+  "description": "A barebones Clojure app, which can easily be deployed to Heroku.",
+  "addons": [ "heroku-postgresql" ],
+  "buildpacks": [
+      { "url" : "https://codon-buildpacks.s3.amazonaws.com/buildpacks/jkutner/clojure-test.tgz" }
+   ]
+}
